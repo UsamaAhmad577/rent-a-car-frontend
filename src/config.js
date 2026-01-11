@@ -15,7 +15,7 @@ function getApiBaseUrl() {
   }
   
   // 2. Fallback to localhost for development
-  return 'http://localhost:3001';
+  return 'http://192.168.20.245:3001';
 }
 
 // Validation to ensure config is correct
